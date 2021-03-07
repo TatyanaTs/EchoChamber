@@ -11,6 +11,7 @@ public class EchoChamber {
         while (!(line = in.nextLine()).isEmpty()) {
             stringIn.add(line); //добавим в список введенную строку
         }
+
         for (Object o : stringIn) {
             System.out.println(o); //вывод объектов
         }
